@@ -1,0 +1,36 @@
+/* Home */
+/* Title*/
+/*Menu Nagitation*/
+
+
+/*Image Slider*/
+
+/* Artikel */
+
+/*Gambar*/
+
+/*img{
+    height: 80px
+    width: 80px
+}*/
+
+.category{
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+
+/*Footer*/
+
+footer {
+    display: block;
+    color: black;
+    background-color: palevioletred;
+    text-align: center;
+    padding: 8px 10px;
+    clear:both;
+}
+
+/* Review */
+/* Contact US */
