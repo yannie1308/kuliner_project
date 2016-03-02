@@ -1,0 +1,78 @@
+﻿	#header {
+		background-color:black; 
+		color:white; 
+		text-align:center; 
+		padding:4%;
+	
+	}
+
+	ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:gray;
+	
+	}
+
+		li	{list-style-type:none;
+		background-color:gray;
+		color:white;
+	
+		}
+		
+		li	{float:left
+		}
+		
+		
+		li a {
+		display:block;
+		color:white;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration:none;
+		}
+	
+	
+		li a:hover {background-color:black;
+		 
+		}
+		
+		
+		footer 
+		{background-color:black;
+		color:white;
+		clear:both;
+		text-align:center;
+		padding:2%;
+		}
+		
+					
+		
+		.logo {
+		float: right;
+		position: relative;
+		margin: 0.3%;
+		}		
+		
+		
+		article {
+		width:70%;
+		float:left;
+		padding:1%;
+		}
+		
+		
+		.img {
+		float:left;
+		margin:29px 20px 0 0;
+		border-radius:4%
+	
+		}
+		
+		
+		#form {
+		width:50%;
+		padding:2%;
+		}
+		
