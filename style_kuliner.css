@@ -1,0 +1,23 @@
+/* Home */
+/* Title*/
+/*Menu Nagitation*/
+
+
+/*Image Slider*/
+
+/* Artikel */
+
+/*Gambar*/
+
+/*Footer*/
+
+footer {
+    clear: both;
+    position: fixed;
+    height: 3em;
+    margin-top: -em;
+    z-index: 10;
+}
+
+/* Review */
+/* Contact US */
