@@ -9,6 +9,11 @@
 
 /*Gambar*/
 
+img{
+    height: 80px
+    width: 80px
+}
+
 /*Footer*/
 
 footer {
