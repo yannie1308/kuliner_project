@@ -39,13 +39,14 @@
 		}
 		
 		
-		footer 
-		{background-color:black;
-		color:white;
-		clear:both;
-		text-align:center;
-		padding:2%;
-		}
+		footer {
+   		display: block;
+   		color: black;
+    	background-color: palevioletred;
+    	text-align: center;
+    	padding: 8px 10px;
+    	clear:both;
+
 		
 					
 		
@@ -75,4 +76,12 @@
 		width:50%;
 		padding:2%;
 		}
+		
+		
+		.category{
+  		position: relative;
+    	display: inline-block;
+   		float: left;
+    	padding: 10px
+    	}
 		
