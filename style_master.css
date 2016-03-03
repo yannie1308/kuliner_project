@@ -1,7 +1,12 @@
 /* Home */
-/* Title*/
-/*Menu Nagitation*/
 
+/* Title
+h1{
+    font-family: "Playfair Display";
+    text-align: center;
+}*/
+
+/*Menu Nagitation*/
 
 /*Image Slider*/
 
@@ -9,27 +14,23 @@
 
 /*Gambar*/
 
-/*img{
-    height: 80px
-    width: 80px
-}*/
-
-.category{
-    position: relative;
-    display: inline-block;
-    float: left;
-    padding: 10px;
+p{
+    font-family: "Lato";  
+    font-size: 120%;
 }
+
+
 
 /*Footer*/
 
 footer {
     display: block;
     color: black;
-    background-color: palevioletred;
+    background-color: #ff7373;
     text-align: center;
     padding: 8px 10px;
     clear:both;
+    font-family: "Lato"
 }
 
 /* Review */
