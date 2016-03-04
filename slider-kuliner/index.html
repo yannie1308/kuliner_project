@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  
+    <title>Basic jQuery Slider - Demo</title>
+      
+    <!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="bjqs.css">
+
+    <!-- some pretty fonts for this demo page - not required for the slider -->
+    <link href='css/fonts-sources-code-sans.css' rel='stylesheet' type='text/css'>
+
+    <!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
+    <link rel="stylesheet" href="demo.css">
+
+    <!-- load jQuery and the plugin -->
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+      
+  </head>
+  
+  <body>
+  
+    <div id="container">
+
+      <!--  Outer wrapper for presentation only, this can be anything you like -->
+      <div id="banner-fade">
+
+        <!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+          <li><img src="images/bakso-super.jpg" title="Bakso Super"></li>
+          <li><img src="images/gado-gado.jpg" title="Gado-Gado"></li>
+          <li><img src="images/nasi-pecel-pincuk.jpg" title="Nasi Pecel Pincuk"></li>
+		  <li><img src="images/nasi-uduk.jpg" title="Nasi Uduk"></li>
+		  <li><img src="images/siomay-bandung.jpg" title="Siomay Bandung"></li>
+		  <li><img src="images/soto-betawi.jpg" title="Soto Betawi"></li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
+
+      </div>
+      <!-- End outer wrapper -->
+
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').bjqs({
+            height      : 320,
+            width       : 620,
+            responsive  : true
+          });
+
+        });
+      </script>
+
+  </body>
+</html>

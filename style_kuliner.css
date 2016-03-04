@@ -9,6 +9,41 @@
 
 /*Gambar*/
 
+#header{
+    background-color:#2a6dc8;
+    color:white;
+    padding:4%;
+    text-align: center;
+    font-family:cooper black;
+    background: :url(../images/gado-gado.jpg);
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:white;
+    padding:14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+
+
+
 img{
     height: 80px
     width: 80px
